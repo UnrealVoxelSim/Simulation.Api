@@ -22,4 +22,4 @@ namespace UnrealVoxelSim::Simulation::Api
 	private:
 		std::uint32_t m_Value{};
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}

@@ -28,4 +28,4 @@ namespace UnrealVoxelSim::Simulation::Api
 		virtual ~IDecisionUpdater() = default;
 		virtual void UpdateDecisions(StepContext context) = 0;
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}

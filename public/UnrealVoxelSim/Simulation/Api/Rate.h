@@ -52,4 +52,4 @@ namespace UnrealVoxelSim::Simulation::Api
 
 	inline constexpr Rate PausedRate = *Rate::Create(0, 1);
 	inline constexpr Rate NormalRate = *Rate::Create(1, 1);
-} // namespace UnrealVoxelSim::Simulation::Api
+}

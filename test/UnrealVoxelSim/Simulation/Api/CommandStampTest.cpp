@@ -14,4 +14,4 @@ TEST(CommandStampTest, OrdersByTickThenSourceThenSequence)
     static_assert(earlier < laterSequence);
     EXPECT_TRUE(earlier.IsValid());
 }
-} // namespace UnrealVoxelSim::Simulation::Api
+}

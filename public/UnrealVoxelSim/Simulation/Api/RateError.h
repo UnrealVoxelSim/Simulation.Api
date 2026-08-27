@@ -6,4 +6,4 @@ namespace UnrealVoxelSim::Simulation::Api
 	{
 		ZeroDenominator,
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}

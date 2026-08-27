@@ -8,4 +8,4 @@ namespace UnrealVoxelSim::Simulation::Api
 		AccumulatorOverflow,
 		TickOverflow,
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}

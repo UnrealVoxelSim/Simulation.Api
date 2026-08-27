@@ -6,4 +6,4 @@ namespace UnrealVoxelSim::Simulation::Api
 	{
 		TickOverflow,
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}

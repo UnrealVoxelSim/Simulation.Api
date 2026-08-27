@@ -20,4 +20,4 @@ namespace UnrealVoxelSim::Simulation::Api
 		[[nodiscard]] virtual std::expected<AdvanceResult, AdvanceError> Advance(std::chrono::nanoseconds elapsed,
 		                                                                         TickCount maximumTicks) = 0;
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}

@@ -34,4 +34,4 @@ namespace UnrealVoxelSim::Simulation::Api
 	inline constexpr StepDuration StandardStepDuration{std::chrono::milliseconds{20}};
 
 	static_assert(StandardStepDuration.Value() == std::chrono::nanoseconds{20'000'000});
-} // namespace UnrealVoxelSim::Simulation::Api
+}

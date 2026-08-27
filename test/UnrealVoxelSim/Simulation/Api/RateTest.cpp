@@ -33,5 +33,5 @@ TEST(RateTest, RepresentsPauseCanonically)
     EXPECT_TRUE(result->IsPaused());
 }
 
-} // namespace
-} // namespace UnrealVoxelSim::Simulation::Api
+}
+}

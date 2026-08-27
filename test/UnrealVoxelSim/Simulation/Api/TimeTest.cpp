@@ -23,5 +23,5 @@ TEST(TimeTest, ReportsWhetherTickCanAdvance)
     EXPECT_FALSE(TickIndex{std::numeric_limits<std::uint64_t>::max()}.CanAdvance());
 }
 
-} // namespace
-} // namespace UnrealVoxelSim::Simulation::Api
+}
+}

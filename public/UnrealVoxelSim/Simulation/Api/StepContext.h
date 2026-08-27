@@ -10,4 +10,4 @@ namespace UnrealVoxelSim::Simulation::Api
 		TickIndex Tick;
 		StepDuration Duration;
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}

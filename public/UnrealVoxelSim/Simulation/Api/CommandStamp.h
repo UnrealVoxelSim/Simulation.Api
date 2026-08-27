@@ -18,4 +18,4 @@ namespace UnrealVoxelSim::Simulation::Api
 		[[nodiscard]] constexpr bool IsValid() const noexcept { return Source.IsValid() && SourceSequence != 0; }
 		auto operator<=>(const CommandStamp&) const = default;
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}

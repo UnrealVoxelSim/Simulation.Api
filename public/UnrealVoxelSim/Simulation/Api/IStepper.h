@@ -16,4 +16,4 @@ namespace UnrealVoxelSim::Simulation::Api
 		[[nodiscard]] virtual TickIndex CurrentTick() const noexcept = 0;
 		[[nodiscard]] virtual std::expected<void, StepError> Step(TickCount count) = 0;
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}

@@ -25,4 +25,4 @@ namespace UnrealVoxelSim::Simulation::Api
 		virtual ~ITickPipeline() = default;
 		virtual void Step(StepContext context) = 0;
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}

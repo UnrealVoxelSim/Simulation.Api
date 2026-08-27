@@ -9,4 +9,4 @@ namespace UnrealVoxelSim::Simulation::Api
 		TickCount Executed;
 		TickCount Pending;
 	};
-} // namespace UnrealVoxelSim::Simulation::Api
+}
