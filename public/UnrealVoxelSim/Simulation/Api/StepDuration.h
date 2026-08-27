@@ -11,24 +11,24 @@ class StepDuration final
 {
   public:
     constexpr StepDuration() noexcept = default;
-    explicit constexpr StepDuration(const std::chrono::nanoseconds value) noexcept : Value_(value)
+    explicit constexpr StepDuration(const std::chrono::nanoseconds value) noexcept : m_Value(value)
     {
     }
 
     [[nodiscard]] constexpr bool IsValid() const noexcept
     {
-        return Value_.count() > 0;
+        return m_Value.count() > 0;
     }
 
     [[nodiscard]] constexpr std::chrono::nanoseconds Value() const noexcept
     {
-        return Value_;
+        return m_Value;
     }
 
     auto operator<=>(const StepDuration &) const = default;
 
   private:
-    std::chrono::nanoseconds Value_{};
+    std::chrono::nanoseconds m_Value{};
 };
 
 inline constexpr StepDuration StandardStepDuration{std::chrono::milliseconds{20}};

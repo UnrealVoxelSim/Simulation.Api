@@ -26,29 +26,29 @@ class Rate final
 
     [[nodiscard]] constexpr std::uint32_t Numerator() const noexcept
     {
-        return Numerator_;
+        return m_Numerator;
     }
 
     [[nodiscard]] constexpr std::uint32_t Denominator() const noexcept
     {
-        return Denominator_;
+        return m_Denominator;
     }
 
     [[nodiscard]] constexpr bool IsPaused() const noexcept
     {
-        return Numerator_ == 0;
+        return m_Numerator == 0;
     }
 
     auto operator<=>(const Rate &) const = default;
 
   private:
     constexpr Rate(const std::uint32_t numerator, const std::uint32_t denominator) noexcept
-        : Numerator_(numerator), Denominator_(denominator)
+        : m_Numerator(numerator), m_Denominator(denominator)
     {
     }
 
-    std::uint32_t Numerator_{};
-    std::uint32_t Denominator_{1};
+    std::uint32_t m_Numerator{};
+    std::uint32_t m_Denominator{1};
 };
 
 inline constexpr Rate PausedRate = *Rate::Create(0, 1);
