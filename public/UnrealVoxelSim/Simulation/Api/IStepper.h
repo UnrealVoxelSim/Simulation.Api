@@ -8,14 +8,12 @@
 
 namespace UnrealVoxelSim::Simulation::Api
 {
+	class IStepper
+	{
+	public:
+		virtual ~IStepper() = default;
 
-class IStepper
-{
-  public:
-    virtual ~IStepper() = default;
-
-    [[nodiscard]] virtual TickIndex CurrentTick() const noexcept = 0;
-    [[nodiscard]] virtual std::expected<void, StepError> Step(TickCount count) = 0;
-};
-
+		[[nodiscard]] virtual TickIndex CurrentTick() const noexcept = 0;
+		[[nodiscard]] virtual std::expected<void, StepError> Step(TickCount count) = 0;
+	};
 } // namespace UnrealVoxelSim::Simulation::Api

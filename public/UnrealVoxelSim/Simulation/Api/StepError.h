@@ -2,10 +2,8 @@
 
 namespace UnrealVoxelSim::Simulation::Api
 {
-
-enum class StepError
-{
-    TickOverflow,
-};
-
+	enum class StepError
+	{
+		TickOverflow,
+	};
 } // namespace UnrealVoxelSim::Simulation::Api

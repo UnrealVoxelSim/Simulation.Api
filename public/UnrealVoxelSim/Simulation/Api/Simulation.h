@@ -1,3 +1,5 @@
+// TODO Remove proxy-header
+
 #pragma once
 
 #include "UnrealVoxelSim/Simulation/Api/AdvanceError.h"

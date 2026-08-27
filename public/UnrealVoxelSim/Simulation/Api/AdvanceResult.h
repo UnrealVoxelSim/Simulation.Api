@@ -4,11 +4,9 @@
 
 namespace UnrealVoxelSim::Simulation::Api
 {
-
-struct AdvanceResult final
-{
-    TickCount Executed;
-    TickCount Pending;
-};
-
+	struct AdvanceResult final
+	{
+		TickCount Executed;
+		TickCount Pending;
+	};
 } // namespace UnrealVoxelSim::Simulation::Api

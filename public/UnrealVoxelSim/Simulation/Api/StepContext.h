@@ -5,11 +5,9 @@
 
 namespace UnrealVoxelSim::Simulation::Api
 {
-
-struct StepContext final
-{
-    TickIndex Tick;
-    StepDuration Duration;
-};
-
+	struct StepContext final
+	{
+		TickIndex Tick;
+		StepDuration Duration;
+	};
 } // namespace UnrealVoxelSim::Simulation::Api

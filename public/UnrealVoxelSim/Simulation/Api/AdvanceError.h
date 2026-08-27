@@ -2,12 +2,10 @@
 
 namespace UnrealVoxelSim::Simulation::Api
 {
-
-enum class AdvanceError
-{
-    NegativeElapsedTime,
-    AccumulatorOverflow,
-    TickOverflow,
-};
-
+	enum class AdvanceError
+	{
+		NegativeElapsedTime,
+		AccumulatorOverflow,
+		TickOverflow,
+	};
 } // namespace UnrealVoxelSim::Simulation::Api

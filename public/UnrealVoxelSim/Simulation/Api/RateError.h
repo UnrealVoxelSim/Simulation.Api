@@ -2,10 +2,8 @@
 
 namespace UnrealVoxelSim::Simulation::Api
 {
-
-enum class RateError
-{
-    ZeroDenominator,
-};
-
+	enum class RateError
+	{
+		ZeroDenominator,
+	};
 } // namespace UnrealVoxelSim::Simulation::Api
